@@ -79,7 +79,7 @@
 
 #### 3.10-3.11 Score Sheet
 
-- スコアシートには[こちら](https://docs.google.com/spreadsheets/d/1SK7xN-CDyikznok4g2BawHQNuEFFyVKu_yLphsFCE8o/edit?usp=sharing)のものが用いられる
+- スコアシートには[こちら](https://docs.google.com/spreadsheets/d/1oKK5UWud1bzt7L1nRFPCuedH94wa1zbOxEy8m7_fPVA/edit?usp=sharing)のものが用いられる
 
 ### 4 Appendix
 
