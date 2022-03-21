@@ -63,9 +63,9 @@ Task 2は5分間である．Task 2はさらにTask 2aとTask 2bを内包して�
 
 このタスクでは，次の点数計算が行われる
 
-- 1度も物体と接触せず，部屋間を移動できた場合（Successfully entering to the dining room to the goal location and without collisions）：100点
+- 1度も物体と接触せず，部屋間を移動できた場合（Successfully entering to the dining room to the goal location and without collisions）：50点
 
-1度でもObstacle Avoidance Areaの物体に接触すると，Task 2aの得点はない．例えば，1度物体に接触した後に，Task 2bでリスタートを実施して，その結果Obstacle Avoidance Areaを物体と接触することなく通過したとしても，100点は獲得できない
+1度でもObstacle Avoidance Areaの物体に接触すると，Task 2aの得点はない．例えば，1度物体に接触した後に，Task 2bでリスタートを実施して，その結果Obstacle Avoidance Areaを物体と接触することなく通過したとしても，50点は獲得できない
 
 #### Task 2b
 
@@ -75,8 +75,8 @@ Task 2は5分間である．Task 2はさらにTask 2aとTask 2bを内包して�
 
 ##### Task 2b1（物体を把持するまで）
 
-- Food Areaに置かれる物体のうち1つを把持した場合（Taking any food item in the shelf）：40点
-- 把持した物体が正しいものである場合（Taking the requested object among many objects in the shelf）：＋60点
+- Food Areaに置かれる物体のうち1つを把持した場合（Taking any food item in the shelf）：20点
+- 把持した物体が正しいものである場合（Taking the requested object among many objects in the shelf）：＋30点
 - ロボットが物体と接触した場合
   - ロボットのハンドが，物体に接触した場合（把持のために接触した場合を想定）：ペナルティはない
   - ロボットのハンド以外の部分が物体に接触した場合：Hitのペナルティが課せられる．このペナルティは最大4回である．次の計算式でTask2b1の計算が行われる
@@ -84,8 +84,8 @@ Task 2は5分間である．Task 2はさらにTask 2aとTask 2bを内包して�
 
 ##### Task 2b2（物体を届けるまで）
 
-- Delivery Areaの人へ物体を届けることができた場合（Delivering the object to a person in the delivery area）：40点
-- 届け先の人が正しい人（手を振っていた人）である場合（Taking the requested object among many objects in the shelf）：＋60点
+- Delivery Areaの人へ物体を届けることができた場合（Delivering the object to a person in the delivery area）：20点
+- 届け先の人が正しい人（手を振っていた人）である場合（Taking the requested object among many objects in the shelf）：＋30点
 - ロボットが物体と接触した場合
   - ロボットのハンドが，物体に接触した場合（把持のために接触した場合を想定）：ペナルティはない
   - ロボットのハンド以外の部分が物体に接触した場合：Hitのペナルティが課せられる．このペナルティは最大4回である．次の計算式でTask2b2の計算が行われる
@@ -95,8 +95,8 @@ Task 2bについて，リスタートは可能である．Task 2bでリスター
 
 Task 2について，さらにボーナスとして次の得点が得られる
 
-- 5分45秒までにTask2が300点を獲得した場合（Finishing the task within the time limit (5 min - 15 sec)）：50点
-- 上記を満たしている場合，さらに1分につき20点（If any time remaining, add 20 points per minute）
+- 5分45秒までにTask2が150点を獲得した場合（Finishing the task within the time limit (5 min - 15 sec)）：25点
+- 上記を満たしている場合，さらに1分につき10点（If any time remaining, add 20 points per minute）
 
 
 
@@ -140,7 +140,7 @@ Task 2について，さらにボーナスとして次の得点が得られる
     その結果，正しい人物が正しい物体を持つことが出来た場合，次の点数計算が行われる
 
     - Delivering the object to a person in the delivery areaの点数は0点である（ロボット単独でDelivery出来ていないため）
-    - Correctly detecting a person’s request and giving the item to her/himの点数60点が加点される
+    - Correctly detecting a person’s request and giving the item to her/himの点数30点が加点される
 
 ## OC Instruction
 
