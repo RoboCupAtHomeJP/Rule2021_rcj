@@ -162,4 +162,4 @@ Task 2について，さらにボーナスとして次の得点が得られる
 
 ## Score Sheet
 
-- スコアシートには[こちら](https://docs.google.com/spreadsheets/d/1SK7xN-CDyikznok4g2BawHQNuEFFyVKu_yLphsFCE8o/edit?usp=sharing)のものが用いられる
+- スコアシートには[こちら](https://docs.google.com/spreadsheets/d/1oKK5UWud1bzt7L1nRFPCuedH94wa1zbOxEy8m7_fPVA/edit?usp=sharing)のものが用いられる
